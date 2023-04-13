@@ -1,0 +1,57 @@
+.todos {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todos .list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todos .toggle_on {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: 1px solid #e73c4d;
+  border-radius: 5px;
+  color: white;
+  background-color: #e73c4d;
+  cursor: pointer;
+}
+
+.todos .toggle_off {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: 1px solid #4cb522;
+  border-radius: 5px;
+  color: white;
+  background-color: #4cb522;
+  cursor: pointer;
+}
+
+.todos .item {
+  flex: 1;
+  padding: 5px;
+  border: 2px solid rgb(97, 97, 97);
+  border-radius: 5px;
+}
+
+.todos .completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todos .delete {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: 2px solid #3c72e7;
+  border-radius: 5px;
+  color: white;
+  background-color: #3c72e7;
+  cursor: pointer;
+}
+
+.todos .delete:hover {
+  color: #3c72e7;
+  background-color: white;
+}
